@@ -3,7 +3,7 @@ site_description: Dataista
 watch: ["docs", "mkdocs.yml"]
 
 nav:
-    - Home: index1.html
+    - Home: index.html
     - About: about.md
     - Services: services.md
     - Contact: contactus.md
