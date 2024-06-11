@@ -69,7 +69,7 @@ body, html {
 .nav-bar {
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 100vw;
   background: #000028;
   color: white;
   padding: 5px 100px; /* Adjust padding to your preference */
