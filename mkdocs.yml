@@ -4,7 +4,7 @@ site_url: https://adriana-hemann.github.io/Dataista-website/
 watch: ["docs", "mkdocs.yml"]
 
 nav:
-    - Home: index.html
+    - Home: index.md
     - About: about.md
     - Services: services.md
     - Contact: contactus.md
@@ -16,7 +16,7 @@ extra_css:
 
 extra:
     social:
-    # - icon: fontawesome/brands/twitter
+    - icon: fontawesome/brands/twitter
     #   link: https://twitter.com/AristaNetworks
     - icon: fontawesome/solid/globe
       link: https://dataista.io
