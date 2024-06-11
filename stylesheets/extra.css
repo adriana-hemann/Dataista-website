@@ -142,3 +142,24 @@ body, html {
   margin-top: 50px; /* Space for fixed nav bar */
 }
 
+/* Media Queries */
+
+@media (min-width:320px)  { /* Vertical Screen Phones */ 
+    
+}
+
+@media (min-width:480px)  { /* Horizontal/Landscape Screen Phones */ 
+    
+}
+
+@media (min-width:600px)  { /* Tablets and Vertical iPads */
+    
+}
+
+@media (min-width:801px)  { /* Tablet, Horizontal/Landscape iPads, low-resolution Laptops */
+     
+}
+
+@media (min-width:1025px) { /* Big Tablets */
+     
+}
