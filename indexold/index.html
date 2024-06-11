@@ -12,15 +12,13 @@
       
       
       
-        <link rel="next" href="../services/">
-      
       
       <link rel="icon" href="../assets/logo.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
     
     
       
-        <title>About - Dataista</title>
+        <title>Indexold - Dataista</title>
       
     
     
@@ -83,7 +81,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#a-bit-about-me" class="md-skip">
+        <a href="#optimize-your-data-workflow" class="md-skip">
           Skip to content
         </a>
       
@@ -118,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              About
+              Indexold
             
           </span>
         </div>
@@ -208,11 +206,9 @@
         
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="./" class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../about/" class="md-tabs__link">
         
   
     
@@ -322,19 +318,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -343,7 +330,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -407,8 +393,32 @@
   
   
   
-    
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#optimize-your-data-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Optimize Your Data Workflow
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#maximize-tool-utilization" class="md-nav__link">
+    <span class="md-ellipsis">
+      Maximize Tool Utilization
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -423,29 +433,57 @@
                   
 
 
-<h1 id="a-bit-about-me">A bit about me</h1>
-<p><a class="glightbox" href="../assets/who.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="left" src="../assets/who.png"></a></p>
-<h1 id="my-approach">My approach</h1>
-<p>When asked to describe my approach to solving problems in science and technology, I respond with four words: </p>
-<h3 style="text-align: center;">VISIONARY THINKING. STRATEGIC TRANSFORMATION</h3>
+<p><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="stylesheets/extra.css">
+ <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></head></p>
+<body>
+    <div class="landing-page">
+        <div class="landing-image"></div>
+        <div class="landing-content">
+            <h1>Your Data. Your Path.</h1>
+            <p>Services that advance your digital transformation.</p>
+        </div>
+    </div>
 
-<!-- ### VISIONARY THINKING. STRATEGIC TRANSFORMATION -->
+    <script>
+        window.addEventListener('scroll', function() {
+          const landingContent = document.querySelector('.landing-content');
+          const scrollY = window.scrollY;
+          const windowHeight = window.innerHeight;
 
-<p style="text-align: justify">The first step is to create a clear vision of where you want to be. Begin by identifying the specific needs and desires of your employees and customers. Envision what success in the future would look like. If we could fully harness the potential of digital technologies, tools, and solutions, what new capabilities and efficiencies could we unlock? Consider how we can bridge the gap between the seamless digital experiences we enjoy in our personal lives and the ways our employees and customers interact with our systems. By aligning our digital strategies with these insights, we can create a more connected, efficient, and satisfying experience for everyone involved.</p>
-<h3 style="text-align: center;">THAT IS VISIONARY THINKING</h3>
+          if (scrollY > windowHeight / 2) {
+            landingContent.classList.add('bottom');
+          } else {
+            landingContent.classList.remove('bottom');
+          }
+        });
+      </script>
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
+</html>
+<!-- # Your data. Your path.   -->
 
-<!-- ### THAT IS VISIONARY THINKING -->
-
-<p style="text-align: justify">The second step is to determine the path the organization can take to reach their envisioned future, step by step. This means narrowing the gap between the current reality and the ideal future state by developing a robust digital strategy and implementing a well-defined roadmap. By systematically addressing each step, organizations can not only enhance their bottom line but also significantly improve the employee and customer experience. Through thoughtful planning and execution, we can transform the employee and/or customer interactions, making them more efficient, engaging, and positive in a digital-first world.</p>
-<h3 style="text-align: center;">THAT IS DEVELOPING THE STRATEGY NEEDED TO TRANSFORM</h3>
-
-<!-- ### THAT IS DEVELOPING THE STRATEGY NEEDED TO TRANSFORM -->
-<p><br /></p>
-<p><a class="glightbox" href="../assets/approach.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" class="center" src="../assets/approach.png" /></a>
-<br/></p>
-<h2 id="would-you-like-to-work-together-check-out-dataista-services"><a href="../services/"><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 17v2H7v-2s0-4 6-4 6 4 6 4m-3-9a3 3 0 1 0-3 3 3 3 0 0 0 3-3m3.2 5.06A5.6 5.6 0 0 1 21 17v2h3v-2s0-3.45-4.8-3.94M18 5a2.91 2.91 0 0 0-.89.14 5 5 0 0 1 0 5.72A2.91 2.91 0 0 0 18 11a3 3 0 0 0 0-6M7.34 8.92l1.16 1.41-4.75 4.75-2.75-3 1.16-1.16 1.59 1.58 3.59-3.58"/></svg></span> Would you like to work together? Check out Dataista services.</a></h2>
-<p><br/>
-<br/></p>
+<p><a class="glightbox" href="assets/block.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="right" width="450" src="assets/block.png"></a></p>
+<p>Advance your digital transformation journey with our custom solutions for:</p>
+<p><a class="glightbox" href="assets/solutions.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img align="left" width="550" src="assets/solutions.png"></a></p>
+<p><br clear="left"/></p>
+<h5 id="optimize-your-data-workflow">Optimize Your Data Workflow</h5>
+<p style="text-align: justify">Streamline your data processes and save resources by automating workflows, enabling faster access to data insights for more informed, data-driven decisions.</p>
+<h5 id="maximize-tool-utilization">Maximize Tool Utilization</h5>
+<p style="text-align: justify">Data tools and processes are only as valuable as their usage. Even the most advanced tools are ineffective if unused. Let us help you drive adoption to ensure you get the most out of your data tools and processes.</p>
 
 
 
@@ -466,7 +504,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    2024-06-10
+    2024-06-11
   </span>
 
     
@@ -548,7 +586,5 @@
       <script src="../assets/javascripts/bundle.1e8ae164.min.js"></script>
       
     
-  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
-document$.subscribe(() => { lightbox.reload() });
-</script></body>
+  </body>
 </html>
