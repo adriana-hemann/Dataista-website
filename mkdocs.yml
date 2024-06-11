@@ -4,7 +4,7 @@ site_url: https://adriana-hemann.github.io/Dataista-website/
 watch: ["docs", "mkdocs.yml"]
 
 nav:
-    - Home: index.md
+    - Home: index.html
     - About: about.md
     - Services: services.md
     - Contact: contactus.md
