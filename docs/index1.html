@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="stylesheets/extra.css">
+    <link rel="icon" href="assets/logo.png" type="image/png">
+</head>
+<body>
+    <div class="landing-page">
+        <div class="landing-image"></div>
+        <div class="landing-content">
+            <h1>Your Data. Your Path.</h1>
+            <p>Services that advance your digital transformation.</p>
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener('scroll', function() {
+          const landingContent = document.querySelector('.landing-content');
+          const scrollY = window.scrollY;
+          const windowHeight = window.innerHeight;
+      
+          if (scrollY > windowHeight / 2) {
+            landingContent.classList.add('bottom');
+          } else {
+            landingContent.classList.remove('bottom');
+          }
+        });
+      </script>
+</body>
+</html>
+
+<div class="nav-bar">
+    <div class="nav-container">
+        <div class="navbar-header">
+            <img src="assets/logo.png" alt="Logo"> 
+            <div class="name">Dataista</div>
+        </div>
+
+        <div class="nav-links">
+            <a href="index1.html">Home</a>
+            <a href="about">About</a>
+            <a href="services">Services</a>
+            <a href="contactus">Contact</a>
+            </div>
+        </div>
+</div>
+    <img align="right" width="450" src="assets/block.png">
+    
+    <h3 style="padding-left: 100px;">Advance your digital transformation journey with our custom solutions for:</h3>
+    
+    <img style = "padding-left: 70px;" align="left" width="700" src="assets/solutions.png">
+    
+    <br clear="left"/>
+    
+  <h3 style="padding-left: 100px;">Optimize Your Data Workflow</h3> 
+    
+    <p style="padding-left: 100px;">Streamline your data processes and save resources by automating workflows, enabling faster access to data insights for more informed, data-driven decisions.
+        </p>
+ <h3 style="padding-left: 100px;">Maximize Tool Utilization</h3>
+    
+    <p style="padding-left: 100px;"> Data tools and processes are only as valuable as their usage. Even the most advanced tools are ineffective if unused. Let me help you drive adoption to ensure you get the most out of your data tools and processes.
+        </p>
+
+    </br>
+
+<h3 style="padding-left: 100px;">Learn more by checking out <a href="services">Dataista services</a>. </h3>
+</body>
+</html>
+
