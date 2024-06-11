@@ -163,3 +163,21 @@ body, html {
 @media (min-width:1025px) { /* Big Tablets */
      
 }
+
+@media (max-width: 575.98px) {
+  .HideOnMobile {
+    display: none;
+  }
+  .ShowOnMobile {
+    display: initial;
+  }
+}
+
+@media (min-width: 576px) {
+  .HideOnMobile {
+    display: initial;
+  }
+  .ShowOnMobile {
+    display: none;
+  }
+}
