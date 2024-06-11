@@ -1,5 +1,6 @@
 site_name: Dataista
 site_description: Dataista
+site_url: https://adriana-hemann.github.io/Dataista-website/
 watch: ["docs", "mkdocs.yml"]
 
 nav:
