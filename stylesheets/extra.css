@@ -158,13 +158,13 @@ body, html {
 /* Styles for mobile phones */
 @media (max-width: 480px) {
   .landing-content h1 {
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 1.3em;
   }
 
   .landing-content p {
-    font-size: 1.5em;
-    line-height: 1.6em;
+    font-size: 1em;
+    line-height: 1em;
   }
 }
 
