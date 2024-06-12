@@ -49,7 +49,7 @@ body, html {
 
 
 .landing-content.bottom {
-  top: calc(100vh - 20vh); /* Adjust this value based on the height of the content */
+  top: calc(100vh - 60px); /* Adjust this value based on the height of the content */
   transform: translate(-100%, -100%);
 }
 
@@ -83,7 +83,7 @@ body, html {
   align-items: center;
   width: 100%;
   padding-bottom: 0%;
-  padding-top: 5%;
+  padding-top: .05%;
   padding-left: 5%;
 }
 
@@ -97,7 +97,7 @@ body, html {
 .navbar-header .name {
     color: white;
     font-size: 18px;
-    margin-top: 5%;
+    margin-top: .5%;
     font: Roboto;
 }
 
@@ -139,7 +139,7 @@ body, html {
   position: relative;
   background: white;
   min-height: 100vh;
-  margin-top: 50px; /* Space for fixed nav bar */
+  margin-top: 10%; /* Space for fixed nav bar */
 }
 
 /* Styles for tablets and smaller screens */
