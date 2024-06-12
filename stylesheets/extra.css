@@ -168,6 +168,40 @@ body, html {
   }
 }
 
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+  .landing-content h1 {
+    margin: 0;
+    font-size: 3em;
+    color: white;
+    line-height:1.5em;
+  }
+  
+  .landing-content p {
+    font-size: 2em;
+    color: white;
+    line-height:2em;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+  .landing-content h1 {
+    margin: 0;
+    font-size: 3em;
+    color: white;
+    line-height:1.5em;
+  }
+  
+  .landing-content p {
+    font-size: 2em;
+    color: white;
+    line-height:2em;
+  }
+}
+
 @media (max-width: 575.98px) {
   .HideOnMobile {
     display: none;
