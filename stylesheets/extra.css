@@ -72,7 +72,7 @@ body, html {
   width: 100%;
   background: #000028;
   color: white;
-  padding: 5px 100px; /* Adjust padding to your preference */
+  padding: 5vw 100px; /* Adjust padding to your preference */
   z-index: 3; /* Ensure nav bar is on top of the landing page content */
   display: flex;
   align-items: center; /* Vertically center items */
@@ -84,7 +84,7 @@ body, html {
   width: 100%;
   padding-bottom: 30px;
   padding-top: 5px;
-  padding-left: 5vw;
+  padding-left: 1vw;
 }
 
 .navbar-header img {
