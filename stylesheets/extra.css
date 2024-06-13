@@ -33,7 +33,7 @@ body, html {
 
 .landing-content {
   position: fixed;
-  top: 13.5vh;
+  top: 15vh;
   left: 0vw;
   /* transform: translate(-50%, -50%); */
   width: 100%;
@@ -54,7 +54,7 @@ body, html {
 .landing-content h1 {
   padding-top: 2vh;
   margin: 0;
-  font-size: 2vw;
+  font-size: 2em;
   color: white;
   line-height:1vw;
 }
@@ -133,15 +133,16 @@ body, html {
 
 
 .content {
-  padding: 60px 20px; /* Adjust this value for the desired padding */
+  margin-top: 33vh /* Space for fixed nav bar */
+  padding: 33vh 1vw;
   z-index: 3;
   position: relative;
   background: white;
   min-height: 100vh;
-  margin-top: 25% /* Space for fixed nav bar */
+  margin-top: 20% /* Space for fixed nav bar */
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .HideOnMobile {
     display: none;
   }
@@ -157,9 +158,9 @@ body, html {
   }
   
   .landing-content p {
-    font-size: 1.8vh;
+    font-size: 2vh;
     color: white;
-    line-height:1vh;
+    line-height:1.5vh;
   }
   .content {
     margin-top: 33vh /* Space for fixed nav bar */
@@ -171,7 +172,7 @@ body, html {
   }
 }
 
-@media (min-width: 1000.01px) {
+@media (min-width: 1200.01px) {
   .HideOnMobile {
     display: initial;
   }
