@@ -47,10 +47,8 @@ body, html {
   transition: top 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
-
-.landing-content.bottom {
-  top: calc(100vh); /* Adjust this value based on the height of the content */
-  transform: translate(-100%, -100%);
+.landing-content.solid {
+  background: rgba(0, 0, 0, 1); /* Solid background when scrolled */
 }
 
 .landing-content h1 {

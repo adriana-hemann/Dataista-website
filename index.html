@@ -15,7 +15,18 @@
             <p>Services that advance your digital transformation.</p>
         </div>
     </div>
+    <script>
+        document.addEventListener('scroll', function() {
+            const landingContent = document.querySelector('.landing-content');
+            const landingPageHeight = document.querySelector('.landing-page').offsetHeight;
 
+            if (window.scrollY > landingPageHeight) {
+                landingContent.classList.add('solid');
+            } else {
+                landingContent.classList.remove('solid');
+            }
+        });
+    </script>
     <script>
         window.addEventListener('scroll', function() {
           const landingContent = document.querySelector('.landing-content');
