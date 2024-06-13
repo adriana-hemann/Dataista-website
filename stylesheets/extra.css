@@ -143,7 +143,7 @@ body, html {
   margin-top: 33% /* Space for fixed nav bar */
 }
 
-@media (max-width: 844px) {
+@media (max-width: 700px) {
   .HideOnMobile {
     display: none;
   }
@@ -171,7 +171,7 @@ body, html {
     padding-top: 1vh;
 }
 
-@media (min-width: 844.01px) {
+@media (min-width: 700.01px) {
   .HideOnMobile {
     display: initial;
   }
