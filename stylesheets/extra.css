@@ -138,7 +138,7 @@ body, html {
   position: relative;
   background: white;
   min-height: 100vh;
-  margin-top: 33% /* Space for fixed nav bar */
+  margin-top: 25% /* Space for fixed nav bar */
 }
 
 @media (max-width: 1000px) {
