@@ -152,9 +152,9 @@ body, html {
 
   .landing-content {
     position: fixed;
-    top: 8vh;
+    top: 2vh;
   }
-  
+
   .landing-content h1 {
     margin: 0;
     font-size: 2em;
