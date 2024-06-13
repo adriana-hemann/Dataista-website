@@ -142,7 +142,7 @@ body, html {
   margin-top: 50px; /* Space for fixed nav bar */
 }
 
-@media (max-width: 575.98px) {
+/* @media (max-width: 575.98px) {
   .HideOnMobile {
     display: none;
   }
@@ -158,4 +158,4 @@ body, html {
   .ShowOnMobile {
     display: none;
   }
-}
+} */
