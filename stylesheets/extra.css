@@ -170,6 +170,7 @@ body, html {
     padding-bottom: 1vh;
     padding-top: 1vh;
 }
+}
 
 @media (min-width: 700.01px) {
   .HideOnMobile {
