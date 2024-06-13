@@ -165,6 +165,9 @@ body, html {
     margin-top: 33vh /* Space for fixed nav bar */
     padding: 33vh 1vw;
   }
+  .navbar-header {
+    padding-bottom: 1vh;
+    padding-top: 1vh;
 }
 
 @media (min-width: 844.01px) {
