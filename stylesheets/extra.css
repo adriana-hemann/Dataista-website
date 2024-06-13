@@ -149,6 +149,18 @@ body, html {
   .ShowOnMobile {
     display: initial;
   }
+  .landing-content h1 {
+    margin: 0;
+    font-size: 2em;
+    color: white;
+    line-height:1.5em;
+  }
+  
+  .landing-content p {
+    font-size: 1em;
+    color: white;
+    line-height:1em;
+  }
 }
 
 @media (min-width: 576px) {
