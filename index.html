@@ -16,16 +16,22 @@
         </div>
     </div>
     <script>
-    window.addEventListener('scroll', function() {
-        var landingContent = document.querySelector('.landing-content');
-        if (window.scrollY > window.innerHeight) {
-        landingContent.classList.add('solid-background');
-        } else {
-        landingContent.classList.remove('solid-background');
-        }
-    });
-    </script>
-
+        // JavaScript to handle scroll event
+        document.addEventListener('scroll', function() {
+          const landingContent = document.querySelector('.landing-content');
+          const landingPageHeight = document.querySelector('.landing-page').offsetHeight;
+          console.log('ScrollY:', window.scrollY);
+          console.log('Landing Page Height:', landingPageHeight);
+    
+          if (window.scrollY > landingPageHeight) {
+            landingContent.classList.add('solid');
+            console.log('Added solid class');
+          } else {
+            landingContent.classList.remove('solid');
+            console.log('Removed solid class');
+          }
+        });
+      </script>
 
 </body>
 </html>

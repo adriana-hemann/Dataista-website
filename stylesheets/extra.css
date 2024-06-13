@@ -44,11 +44,11 @@ body, html {
   padding: 1vh;
   border-radius: 0px;
   z-index: 2;
-  transition: top 0.5s ease-in-out, transform 0.5s ease-in-out;
+  transition: top 0.5s ease-in-out, transform 0.5s ease-in-out, background 0,3s;
 }
 
-.landing-content.solid-background {
-  background: rgba(0, 0, 0, 1); /* Solid background color */
+.landing-content.solid {
+  background: rgba(0, 0, 0, 1); /* Solid background when scrolled */
 }
 
 .landing-content h1 {
@@ -153,8 +153,9 @@ body, html {
   .landing-content {
     position: fixed;
     top: 12vh;
-    background: rgb(86, 84, 84);
+    /* background: rgb(86, 84, 84); */
   }
+
 
   .landing-content h1 {
     margin: 0;
