@@ -42,7 +42,7 @@ body, html {
   text-align: center;
   background: rgba(0, 0, 0, 0.5);
   padding: 5px;
-  border-radius: 5px;
+  border-radius: 0px;
   z-index: 2;
   transition: top 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
@@ -55,15 +55,15 @@ body, html {
 
 .landing-content h1 {
   margin: 0;
-  font-size: 5vw;
+  font-size: 3vw;
   color: white;
   line-height:1.5vw;
 }
 
 .landing-content p {
-  font-size: 2.5vw;
+  font-size: 1.8vw;
   color: white;
-  line-height:2vw;
+  line-height:1.5vw;
 }
 
 .nav-bar {
@@ -134,7 +134,7 @@ body, html {
 
 
 .content {
-  padding: 60px 20px; /* Adjust this value for the desired padding */
+  padding: 33vh 20px; /* Adjust this value for the desired padding */
   z-index: 3;
   position: relative;
   background: white;
@@ -142,7 +142,7 @@ body, html {
   margin-top: 33% /* Space for fixed nav bar */
 }
 
-@media (max-width: 700px) {
+@media (max-width: 844px) {
   .HideOnMobile {
     display: none;
   }
@@ -163,10 +163,11 @@ body, html {
   }
   .content {
     margin-top: 33vh /* Space for fixed nav bar */
+    padding: 33vh 20px;
   }
 }
 
-@media (min-width: 700.01px) {
+@media (min-width: 844.01px) {
   .HideOnMobile {
     display: initial;
   }
