@@ -72,7 +72,7 @@ body, html {
   width: 100%;
   background: #000028;
   color: white;
-  padding: 5vw 100px; /* Adjust padding to your preference */
+  padding: 1vw 100px; /* Adjust padding to your preference */
   z-index: 3; /* Ensure nav bar is on top of the landing page content */
   display: flex;
   align-items: center; /* Vertically center items */
@@ -105,7 +105,7 @@ body, html {
 .nav-bar .nav-links {
   display: flex;
   gap: 26px; /* Space between links */
-  padding-left: 5vw; /* Increase space on the left */
+  padding-left: 1vw; /* Increase space on the left */
   padding-bottom: 10px;
   font: Roboto;
 }
