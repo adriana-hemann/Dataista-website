@@ -33,7 +33,7 @@ body, html {
 
 .landing-content {
   position: fixed;
-  top: 13.5%;
+  top: 13.5vh;
   left: 0vw;
   /* transform: translate(-50%, -50%); */
   width: 100%;
@@ -145,7 +145,7 @@ body, html {
   .ShowOnMobile {
     display: initial;
   }
-  
+
   .landing-content.solid {
     background: rgba(0, 0, 0, 1); /* Solid background when scrolled */
   }
