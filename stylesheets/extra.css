@@ -47,6 +47,9 @@ body, html {
   transition: top 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
+.landing-content.solid {
+  background: rgba(0, 0, 0, 1); /* Solid background when scrolled */
+}
 
 .landing-content h1 {
   padding-top: 2vh;
@@ -146,9 +149,6 @@ body, html {
     display: initial;
   }
 
-  .landing-content.solid {
-    background: rgba(0, 0, 0, 1); /* Solid background when scrolled */
-  }
   .landing-content h1 {
     margin: 0;
     font-size: 2em;
