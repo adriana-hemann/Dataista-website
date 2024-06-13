@@ -16,31 +16,17 @@
         </div>
     </div>
     <script>
-        document.addEventListener('scroll', function() {
-            const landingContent = document.querySelector('.landing-content');
-            const landingPageHeight = document.querySelector('.landing-page').offsetHeight;
-
-            if (window.scrollY > landingPageHeight) {
-                landingContent.classList.add('solid');
-            } else {
-                landingContent.classList.remove('solid');
-            }
-        });
+    window.addEventListener('scroll', function() {
+        var landingContent = document.querySelector('.landing-content');
+        if (window.scrollY > window.innerHeight) {
+        landingContent.classList.add('solid-background');
+        } else {
+        landingContent.classList.remove('solid-background');
+        }
+    });
     </script>
 
-    <script>
-        window.addEventListener('scroll', function() {
-          const landingContent = document.querySelector('.landing-content');
-          const scrollY = window.scrollY;
-          const windowHeight = window.innerHeight;
-      
-          if (scrollY > windowHeight / 2) {
-            landingContent.classList.add('bottom');
-          } else {
-            landingContent.classList.remove('bottom');
-          }
-        });
-      </script>
+
 </body>
 </html>
 

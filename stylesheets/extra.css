@@ -33,7 +33,7 @@ body, html {
 
 .landing-content {
   position: fixed;
-  top: 17vh;
+  top: 16vh;
   left: 0vw;
   /* transform: translate(-50%, -50%); */
   width: 100%;
@@ -47,8 +47,8 @@ body, html {
   transition: top 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
-.landing-content.solid {
-  background: rgba(0, 0, 0, 1); /* Solid background when scrolled */
+.landing-content.solid-background {
+  background: rgba(0, 0, 0, 1); /* Solid background color */
 }
 
 .landing-content h1 {
@@ -152,7 +152,7 @@ body, html {
 
   .landing-content {
     position: fixed;
-    top: 2vh;
+    top: 10vh;
   }
 
   .landing-content h1 {
