@@ -54,6 +54,7 @@ body, html {
 }
 
 .landing-content h1 {
+  padding-top: 0.2vh;
   margin: 0;
   font-size: 1.5vw;
   color: white;
