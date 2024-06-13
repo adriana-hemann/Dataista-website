@@ -135,7 +135,7 @@ body, html {
 
 
 .content {
-  padding: 33vh 20px; /* Adjust this value for the desired padding */
+  padding: 60px 20px; /* Adjust this value for the desired padding */
   z-index: 3;
   position: relative;
   background: white;
