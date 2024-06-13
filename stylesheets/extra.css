@@ -157,9 +157,9 @@ body, html {
   }
   
   .landing-content p {
-    font-size: 1.4em;
+    font-size: 1.2vh;
     color: white;
-    line-height:1em;
+    line-height:1vh;
   }
   .content {
     margin-top: 33vh /* Space for fixed nav bar */
