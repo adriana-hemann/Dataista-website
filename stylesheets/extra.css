@@ -152,7 +152,8 @@ body, html {
   .landing-content {
     position: fixed;
     top: 12vh;
-    /* background: rgb(86, 84, 84); */
+    background: rgba(225, 225, 225,1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust the values as needed */
   }
 
 
