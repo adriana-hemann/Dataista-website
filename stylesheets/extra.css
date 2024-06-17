@@ -21,6 +21,10 @@ body, html {
   overflow-x: hidden;
 }
 
+.landing-page {
+  position:relative;
+}
+
 .landing-image {
   position: relative;
   top: 0%;
@@ -52,7 +56,7 @@ body, html {
   background: rgba(255, 255, 255, 1);
   padding: 1vh;
   border-radius: 0px;
-  z-index: 2;
+  z-index: 3;
   transition: top 0.5s ease-in-out, transform 0.5s ease-in-out, background 0.3s;
 }
 
@@ -144,10 +148,10 @@ body, html {
 
 
 .content {
+  position: relative;
   margin-top: 100vh; /* Space for fixed nav bar */
   padding: 33vh 1vw;
   z-index: -1;
-  position: relative;
   background: white;
   min-height: 200vh;
 }
@@ -175,10 +179,7 @@ body, html {
     line-height:1.5vh;
     /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  */
   }
-  .content {
-    margin-top: 100vh; /* Space for fixed nav bar */
-    padding: 33vh 1vw;
-  }
+
   .navbar-header {
     padding-bottom: 1vh;
     padding-top: 1vh;
