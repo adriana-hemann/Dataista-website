@@ -39,7 +39,7 @@ body, html {
   width: 100%;
   color: white;
   text-align: center;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 1);
   padding: 1vh;
   border-radius: 0px;
   z-index: 1;
@@ -56,11 +56,13 @@ body, html {
   font-size: 2em;
   color: white;
   line-height:1vw;
+  -webkit-text-shadow:2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
 }
 
 .landing-content p {
   font-size: 1.5vw;
-  color: white;
+  color: #000028;
   line-height:1vw;
 }
 
