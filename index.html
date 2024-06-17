@@ -68,53 +68,14 @@
 <h3 style="padding-left: 5%;">Learn more by checking out <a href="services">Dataista services</a>. </h3>
 
 <script>
-    // Basic log to check if JavaScript is running
-    console.log('JavaScript is running');
-
-    // DOMContentLoaded to ensure elements are loaded
-    document.addEventListener('DOMContentLoaded', function() {
-    console.log('DOM fully loaded and parsed');
-
-    const landingContent = document.querySelector('.landing-content');
-    const landingPage = document.querySelector('.landing-page');
-
-    if (landingPage) {
-        console.log('Landing Page exists');
-    } else {
-        console.error('Landing Page does not exist');
-    }
-
-    if (landingContent) {
-        console.log('Landing Content exists');
-    } else {
-        console.error('Landing Content does not exist');
-    }
-
-    const landingPageHeight = landingPage ? landingPage.offsetHeight : 0;
-    console.log('Landing Page Height:', landingPageHeight);
-
-    // Ensure there is enough content to scroll
-    if (document.body.scrollHeight > window.innerHeight) {
-        console.log('Page is scrollable');
-    } else {
-        console.error('Page is not scrollable');
-    }
-
-    // Adding scroll event listener
-// Adding scroll event listener
-    window.addEventListener('scroll', function() {
-            console.log('Scroll event triggered');
-            console.log('ScrollY:', window.scrollY);
-
-            if (window.scrollY > landingPageHeight) {
-            landingContent.classList.add('solid');
-            console.log('Added solid class');
-            } else {
-            landingContent.classList.remove('solid');
-            console.log('Removed solid class');
-            }
-        });
-        });
+   window.addEventListener('scroll', function() {
+  var landingContent = document.querySelector('.landing-content');
+  if (window.scrollY > window.innerHeight) {
+    landingContent.classList.add('solid-background');
+  } else {
+    landingContent.classList.remove('solid-background');
+  }
+});
 </script>
 
 </body>
