@@ -135,7 +135,7 @@ body, html {
 .content {
   margin-top: 33vh /* Space for fixed nav bar */
   padding: 33vh 1vw;
-  z-index: 2;
+  z-index: 3;
   position: relative;
   background: white;
   min-height: 200vh;
@@ -169,8 +169,8 @@ body, html {
     line-height:1.5vh;
   }
   .content {
-    margin-top: 1vh /* Space for fixed nav bar */
-    padding: 1vh 1vw;
+    margin-top: 33vh /* Space for fixed nav bar */
+    padding: 33vh 1vw;
   }
   .navbar-header {
     padding-bottom: 1vh;
