@@ -16,7 +16,18 @@
             <p>Services that advance your digital transformation.</p>
         </div>
     </div>
-
+    <script>
+        window.onscroll = function()
+        {myscrollfunction()};
+        function myscrollfunction(){
+            var landingContent = document.querySelector('.landing-content');
+            if (window.scrollY > window.innerHeight) {
+                document.querySelector('.landing-content').classList.add('solid');
+            } else {
+                document.querySelector('.landing-content').classList.remove('solid');
+            }
+        }
+    </script>
 </body>
 </html>
 
@@ -67,18 +78,6 @@
 
 <h3 style="padding-left: 5%;">Learn more by checking out <a href="services">Dataista services</a>. </h3>
 
-<script>
-    window.onscroll = function()
-    {myscrollfunction()};
-    function myscrollfunction(){
-        var landingContent = document.querySelector('.landing-content');
-        if (window.scrollY > window.innerHeight) {
-            landingContent.classList.add('solid');
-        } else {
-            landingContent.classList.remove('solid');
-        }
-    }
-</script>
 
 </body>
 </html>
