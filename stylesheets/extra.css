@@ -28,7 +28,7 @@ body, html {
   height: 100vh;
   background: url('../assets/path.png') no-repeat center center fixed;
   background-size: cover;
-  z-index: 1;
+  z-index: -1;
 }
 
 .landing-content {
@@ -42,7 +42,7 @@ body, html {
   background: rgba(255, 255, 255, 1);
   padding: 1vh;
   border-radius: 0px;
-  z-index: 2;
+  z-index: 1;
   transition: top 0.5s ease-in-out, transform 0.5s ease-in-out, background 0.3s;
 }
 
@@ -136,7 +136,7 @@ body, html {
 .content {
   margin-top: 100vh; /* Space for fixed nav bar */
   padding: 33vh 1vw;
-  z-index: 3;
+  z-index: 2;
   position: relative;
   background: white;
   min-height: 200vh;
