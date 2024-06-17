@@ -84,6 +84,7 @@ body, html {
   position: fixed;
   top: 0;
   width: 100%;
+  height: 10vh;
   background: #000028;
   color: white;
   padding: 1vw 3vw; /* Adjust padding to your preference */
