@@ -147,15 +147,6 @@ body, html {
 }
 
 
-.content {
-  position: relative;
-  margin-top: 100vh; /* Space for fixed nav bar */
-  padding: 33vh 1vw;
-  z-index: -1;
-  background: white;
-  min-height: 200vh;
-}
-
 @media (max-width: 1200px) {
   .HideOnMobile {
     display: none;
@@ -173,6 +164,10 @@ body, html {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
   }
   
+  .landing-content {
+    position: fixed;
+    top: 10vh;
+  }
   .landing-content p {
     font-size: 1em;
     color: #000028;
