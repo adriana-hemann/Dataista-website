@@ -42,8 +42,7 @@ body, html {
 }
 
 .landing-content {
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   top: 16vh;
   left: 0vw;
   /* transform: translate(-50%, -50%); */
