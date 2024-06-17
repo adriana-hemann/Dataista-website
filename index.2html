@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scroll Event Debugging</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow-x: hidden;
+    }
+    .landing-page {
+      height: 100vh;
+      background-color: lightblue;
+    }
+    .content {
+      height: 200vh;
+      background-color: lightcoral;
+    }
+  </style>
+</head>
+<body>
+  <div class="landing-page">
+    <h1>Landing Page</h1>
+  </div>
+  <div class="content">
+    <p>Scroll down to trigger the event...</p>
+  </div>
+  <script>
+    console.log('JavaScript is running');
+
+    window.addEventListener('DOMContentLoaded', function() {
+      console.log('DOM fully loaded and parsed');
+
+      const landingPage = document.querySelector('.landing-page');
+      const landingPageHeight = landingPage ? landingPage.offsetHeight : 0;
+      console.log('Landing Page Height:', landingPageHeight);
+
+      if (document.body.scrollHeight > window.innerHeight) {
+        console.log('Page is scrollable');
+      } else {
+        console.error('Page is not scrollable');
+      }
+
+      console.log('Adding scroll event listener');
+      window.addEventListener('scroll', function() {
+        console.log('Scroll event triggered');
+        console.log('ScrollY:', window.scrollY);
+
+        if (window.scrollY > landingPageHeight) {
+          console.log('Scrolled past landing page height');
+        }
+      });
+      console.log('Scroll event listener added');
+
+      // Force scroll for testing
+      setTimeout(() => {
+        window.scrollTo(0, landingPageHeight + 10);
+      }, 1000);
+    });
+  </script>
+</body>
+</html>
