@@ -31,7 +31,7 @@ body, html {
   z-index: 1;
 }
 
-.landing-page .landing-content {
+.landing-content {
   position: fixed;
   top: 16vh;
   left: 0vw;
@@ -47,11 +47,11 @@ body, html {
   transition: top 0.5s ease-in-out, transform 0.5s ease-in-out, background 0.3s;
 }
 
-.landing-page .landing-content.solid {
+.landing-content.solid {
   background: rgba(0, 0, 0, 1); /* Solid background when scrolled */
 }
 
-.landing-page .landing-content h1 {
+.landing-content h1 {
   padding-top: 2vh;
   margin: 0;
   font-size: 2em;
@@ -59,7 +59,7 @@ body, html {
   line-height:1vw;
 }
 
-.landing-page .landing-content p {
+.landing-content p {
   font-size: 1.5vw;
   color: white;
   line-height:1vw;
