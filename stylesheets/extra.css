@@ -42,7 +42,7 @@ body, html {
 }
 
 .landing-content {
-  position: absolute;
+  position: fixed;
   top: 16vh;
   left: 0vw;
   /* transform: translate(-50%, -50%); */
