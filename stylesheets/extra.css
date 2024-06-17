@@ -162,12 +162,14 @@ body, html {
     font-size: 2em;
     color: white;
     line-height:1.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
   }
   
   .landing-content p {
     font-size: 1em;
     color: white;
     line-height:1.5vh;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
   }
   .content {
     margin-top: 33vh /* Space for fixed nav bar */
