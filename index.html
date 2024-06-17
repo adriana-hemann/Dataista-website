@@ -12,7 +12,7 @@
     <div class="landing-page">
         <div class="landing-image"></div>
         <div class="landing-content">
-            <h1>Your Data. Your test.</h1>
+            <h1>Your Data. Your Path.</h1>
             <p>Services that advance your digital transformation.</p>
         </div>
     </div>
@@ -68,14 +68,16 @@
 <h3 style="padding-left: 5%;">Learn more by checking out <a href="services">Dataista services</a>. </h3>
 
 <script>
-   window.addEventListener('scroll', function() {
-  var landingContent = document.querySelector('.landing-content');
-  if (window.scrollY > window.innerHeight) {
-    landingContent.classList.add('solid');
-  } else {
-    landingContent.classList.remove('solid');
-  }
-});
+    window.onscroll = function()
+    {myscrollfunction()};
+    function myscrollfunction(){
+        var landingContent = document.querySelector('.landing-content');
+        if (window.scrollY > window.innerHeight) {
+            landingContent.classList.add('solid');
+        } else {
+            landingContent.classList.remove('solid');
+        }
+    }
 </script>
 
 </body>
