@@ -154,7 +154,10 @@ body, html {
   .ShowOnMobile {
     display: initial;
   }
-
+  .landing-content {
+    position: fixed;
+    top: 8vh;
+  }
   .landing-content h1 {
     margin: 0;
     font-size: 2em;
@@ -162,11 +165,6 @@ body, html {
     line-height:1.5em;
     -webkit-text-shadow:2px 2px 4px rgba(0, 0, 0, 0.5);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
-  }
-  
-  .landing-content {
-    position: fixed;
-    top: 5vh;
   }
   .landing-content p {
     font-size: 1em;
