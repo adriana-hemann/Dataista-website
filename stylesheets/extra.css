@@ -178,6 +178,8 @@ body, html {
     padding-bottom: 1vh;
     padding-top: 1vh;
   }
+  .content {
+    padding: 5vh 1vw;
 }
 
 @media (min-width: 1200.01px) {
