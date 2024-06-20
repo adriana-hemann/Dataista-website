@@ -78,6 +78,19 @@ body, html {
   line-height:1vw;
 }
 
+.landing-message {
+  position: fixed;
+  top: 50vh;
+  /* transform: translate(-50%, -50%); */
+  width: 100%;
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, .5);
+  padding: 1vh;
+  border-radius: 0px;
+  z-index: -1;
+  transition: top 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
 .nav-bar {
   position: fixed;
   top: 0;
