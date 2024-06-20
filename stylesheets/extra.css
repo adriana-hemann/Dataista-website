@@ -35,7 +35,7 @@ body, html {
 
 .content {
   position: relative;
-  margin-top: 100vh; /* Space for fixed nav bar */
+  margin-top: 5vh; /* Space for fixed nav bar */
   padding: 5vh 1vw;
   z-index: 1;
   position: relative;
@@ -89,7 +89,7 @@ body, html {
   background: rgba(0, 0, 0, .5);
   padding: 1vh;
   border-radius: 0px;
-  z-index: 2;
+  z-index: 0;
   transition: top 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 .nav-bar {
