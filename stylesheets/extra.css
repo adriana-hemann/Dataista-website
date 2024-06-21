@@ -96,7 +96,7 @@ body, html {
 .landing-logo {
   position: fixed;
   top: 38%;
-  left: 40%;
+  left: 45%;
   z-index: 0;
   transition: top 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
