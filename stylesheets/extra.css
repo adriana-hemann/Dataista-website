@@ -159,6 +159,21 @@ body, html {
   text-decoration: underline;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
 
 @media (max-width: 1200px) {
   .HideOnMobile {
