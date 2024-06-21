@@ -40,7 +40,6 @@ body, html {
   z-index: 1;
   position: relative;
   background: white;
-  min-height: 200vh;
 }
 
 .landing-content {
